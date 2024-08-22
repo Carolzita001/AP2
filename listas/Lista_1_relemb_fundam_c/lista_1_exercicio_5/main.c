@@ -1,18 +1,25 @@
 #include <stdio.h>
-#include <math.h>
 #include <locale.h>
 
-int main (){
-    setlocale (LC_ALL, "Portuguese_Brazil");
+int main() {
+    setlocale(LC_ALL,"Portuguese_Brazil");
 
-    int valor_N, i;
+    int n, i;
+    int fatorial = 1;
 
-    printf("Insira um valor inteiro positivo: \n");
-    scanf("%d", &valor_N);
+    printf("Digite um valor inteiro positivo: ");
+    scanf("%d", &n);
 
-    for (int valor_N;  < count; i++)
-    {
-        /* code */
+    if (n < 0) {
+        printf("Erro: N deve ser um valor inteiro positivo.\n");
+        return 1;
     }
-    
+
+    for (i = 1; i <= n; i++) {
+        fatorial *= i;
+    }
+
+    printf("O fatorial de %d é %d.\n", n, fatorial);
+
+    return 0;
 }
