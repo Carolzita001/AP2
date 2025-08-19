@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1733704495 source:c:\users\carol\ufj\ap2\project_ap2\game\jogo_digitacao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<locale.h>
+	"bibli.h"
+
+1733614967 c:\users\carol\ufj\ap2\project_ap2\game\jogo_digitacao\bibli.h
+
